@@ -1,0 +1,11 @@
+import java.util.Scanner;
+public class programme2_8 {
+	public static void main(String[] args) {
+		Scanner input = new Scanner(System.in);
+		System.out.print("Enter purchase Amount: ");
+		double purchaseAmount = input.nextDouble();
+		double tax = purchaseAmount * 0.06;
+		System.out.println("Sales tax is $"+(int)(tax * 100) / 100.0);
+		input.close();
+	}
+}
